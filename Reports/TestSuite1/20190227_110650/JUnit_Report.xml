@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="6" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="6" timestamp="2019-02-27 11:06:57" hostname="lin.du - ITLAPTOPRLC295.rlcarriers.com" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Katalon\\Tests\\APIDemoProject1\\Reports\\TestSuite1\\20190227_110650"/>
+         <property name="logFiles" value="E:\\Katalon\\Tests\\APIDemoProject1\\Reports\\TestSuite1\\20190227_110650\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lin.du - ITLAPTOPRLC295.rlcarriers.com"/>
+         <property name="hostAddress" value="10.62.104.56"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Day5/Test3" classname="Test Cases/Day5/Test3" status="PASSED">
+         <system-out><![CDATA[2019-02-27 11:06:57 - [TEST_CASE][PASSED] - Test Cases/Day5/Test3: Test Cases/Day5/Test3
+
+2019-02-27 11:06:57 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("REST/CreateUser")): Send request and verify the response successfully
+
+2019-02-27 11:07:02 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-02-27 11:07:03 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-02-27 11:07:03 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-02-27 11:07:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2019-02-27 11:07:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-27 11:07:03 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+2019-02-27 11:07:03 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-02-27 11:07:03 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-27 11:06:57 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/Day5/Test3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
